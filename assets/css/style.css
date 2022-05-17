@@ -1,0 +1,181 @@
+html {
+    font-size: 62.5%;
+    /** 1REM = 10pX **/
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* ========================= fuentes =========================
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700;1,800&display=swap');
+
+/* ========================= Globales =========================
+ */
+
+body {
+    background: linear-gradient(to right, #0a0a21, #141846);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2.3rem;
+    /* font-size: 2rem; pantalla pc */
+    font-weight: 600;
+}
+
+header {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: .8rem;
+    margin: 0;
+}
+
+header {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    padding-bottom: 0.8rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    border-bottom: 2px solid #66f5ff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+a:hover {
+    background: linear-gradient(to right, #3d0e70, #3f51e5);
+    padding: 1rem;
+}
+
+.card {
+    width: 50vw;
+    background: linear-gradient(to right, #31165e, #af247f);
+    margin: 1rem auto 2rem auto;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .barra i {
+        display: none;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
+
+
+/* ========================= Seccion menu =========================
+ */
+
+.barra {
+    margin: 0;
+    background: #252e4a;
+    padding: 2rem 3rem;
+    width: 100vw;
+    height: 20vw;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+.barra i {
+    font-size: 5rem;
+    color: white;
+}
+
+#menu {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .barra {
+        width: 30vw;
+        max-height: 100vh;
+        height: 100vh;
+    }
+    .barra::-webkit-scrollbar {
+        width: .7rem;
+        background: linear-gradient(to bottom, #b3217c, #ca58a0);
+    }
+    .barra::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #70d0df, #2673a7);
+        border-radius: 1rem;
+    }
+    #menu {
+        display: block;
+    }
+}
+
+
+/* ===================== Seccion Documentacion ======================
+ */
+
+#main-doc {
+    margin-top: 20vw;
+}
+
+.main-section {
+    padding-top: 0.7rem;
+}
+
+.main-section:nth-child(odd) {
+    background: linear-gradient(to right, #1d163f, #391044);
+}
+
+@media (min-width: 992px) {
+    #main-doc {
+        margin-top: 0;
+        margin-left: 30vw;
+    }
+    .main-section {
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="PblitoMix" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Documentacion Unity</title>
+</head>
+
+<body>
+    <section class="barra">
+        <i id="iconmenu" class="bi bi-list"></i>
+        <header id="menu">
+            <h1>Documentacion Unity</h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#">Entorno</a>
+                        <ul>
+                            <li><a href="#">Barra herramienta</a></li>
+                            <li><a href="#">Ventana jerarquía</a></li>
+                            <li><a href="#">Vista de juego</a></li>
+                            <li><a href="#">Vista de escena</a></li>
+                            <li><a href="#">Ventana Inspector</a></li>
+                            <li><a href="#">Ventana Proyecto</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Agregar objetos</a></li>
+                    <li><a href="#">Herramientas de escena</a>
+                        <ul>
+                            <li><a href="#">Mover</a></li>
+                            <li><a href="#">Rotar</a></li>
+                            <li><a href="#">Scalar</a></li>
+                            <li><a href="#">Rect Transform</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Mover perspectiva</a></li>
+                    <li><a href="#">Importar Assets</a></li>
+                    <li><a href="#">Unity store</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <main id="main-doc">
+        <section class="main-section">
+            <header>Entorno</header>
+            <p>En esta sección veremos cómo está conformado el engine de Unitiy y cuales son las ventanas principales que la conforman y como utilizarlas.</p>
+        </section>
+        <section class="main-section">
+            <header>Barra herramienta</header>
+            <p>Proporciona acceso a las funciones de trabajo más esenciales. A la izquierda contiene las herramientas básicas para manipular la escena y GameObject, en medio están los controles de reproducción del videojuego y en la derecha se encuentra
+                Unity Collab, Unity Cloud, la cuenta con la que se cuenta, menú de visibilidad de capa y final mente menú de diseño del editor. </p>
+            <div class="card">
+                <figure>
+                    <img src="./assets/img/Sin título.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+        <section class="main-section">
+            <header>Ventana jerarquía</header>
+            <p>Es la presentación jerárquica de cada objeto en la escena.</p>
+            <p>Se pueden agregar objetos desde este panel y es donde se puede administrar el orden jerárquico de los objetos.</p>
+        </section>
+        <section class="main-section">
+            <header>Vista de juego</header>
+            <p>Simula como se verá el juego con su renderizado final y a través de las cámaras con las que se cuentan la escena y es donde podremos probar si nuestro juego funciona correctamente. </p>
+        </section>
+        <section class="main-section">
+            <header>Ventana Inspector</header>
+            <p>Permite ver y editar las propiedades o componentes de los objetos y estas propiedades cambian dependiendo del objeto.</p>
+        </section>
+        <section class="main-section">
+            <header>Ventana Proyecto</header>
+            <p>Muestra su biblioteca de archivos que estarán disponibles para usar en el proyecto, al importar los archivos estos aparecieran aquí.</p>
+        </section>
+        <section class="main-section">
+            <header>Vista de escena</header>
+            <p>Nos permite navegar y editar visualmente la escena. </p>
+        </section>
+        <section class="main-section">
+            <header>Herramientas de escena</header>
+            <p>Las herramientas de escena son las que se encuentras en la parte superiror derecha.</p>
+        </section>
+        <section class="main-section">
+            <p>Clic derecho en la ventana de jerarquía > objeto 2d o 3d , crearemos un objeto y veremos sus componentes en el inspector.</p>
+            <p>Para resetear un componente se tendrá que hacer clic en los tres puntos del componente y seleccionar reset. </p>
+        </section>
+        <section class="main-section">
+            <header>Mover un Objetos</header>
+            <p>Al seleccionar un objeto aparecerán las flechas en las que podrá mover el objeto, si se requiere precisión se podan cambiar las coordenadas en el inspector, su atajo es la letra “w”. </p>
+            <p>También para unir de una forma mas precisa dos objetos preciando la tecla “b“ el puntero se posicionara en las esquinas y se podrá poner la esquina del objeto con las otras esquinas del otro objetó. </p>
+        </section>
+        <section class="main-section">
+            <header>Rotar un Objetos</header>
+            <p>Si no se selecciona un eje para una rotación, e aplicara una rotación libre esto quiere decir que lo podrá rota libremente por todos los ejes y si selecciona el eje de rotación solo lo podrá mover sobre ese eje, el atajo de teclado es la letra
+                ”e” y también se podrá modifica desde le inspector. </p>
+        </section>
+        <section class="main-section">
+            <header>Escalar un Objetos</header>
+            <p>Si le damos clic en el cuadro de en medio se escalara de forma proporcionada y si seleccionamos una dirección se ira solo en ese eje, su atajo de teclado es la letra “r” y también se podrá modificar en el inspector.</p>
+        </section>
+        <section class="main-section">
+            <header>Rect Tranform</header>
+            <p>Sirve para escalar de forma rectangular y si se presiona la tecla “ALT” se escalará de forma cuadrada, se suele ocupar mas para los elementos del cava y su atajo de teclado es la letra “e” y también se puede modificar en el inspector. </p>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/utilidades.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+</body>
+
+</html>
