@@ -15,111 +15,122 @@
     <section class="barra">
         <i id="iconmenu" class="bi bi-list"></i>
         <header id="menu">
-            <h1>Documentacion Unity</h1>
+            <header>Documentacion Unity</header>
             <nav id="navbar">
                 <ul>
-                    <li><a href="#">Entorno</a>
+                    <li><a href="#1">Entorno</a>
                         <ul>
-                            <li><a href="#">Barra herramienta</a></li>
-                            <li><a href="#">Ventana jerarquía</a></li>
-                            <li><a href="#">Vista de juego</a></li>
-                            <li><a href="#">Vista de escena</a></li>
-                            <li><a href="#">Ventana Inspector</a></li>
-                            <li><a href="#">Ventana Proyecto</a></li>
+                            <li><a href="#2">Barra herramienta</a></li>
+                            <li><a href="#3">Ventana jerarquía</a></li>
+                            <li><a href="#4">Vista de juego</a></li>
+                            <li><a href="#5">Vista de escena</a></li>
+                            <li><a href="#6">Ventana Inspector</a></li>
+                            <li><a href="#7">Ventana Proyecto</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Agregar objetos</a></li>
-                    <li><a href="#">Herramientas de escena</a>
+                    <li><a href="#8">Agregar objetos</a></li>
+                    <li><a href="#9">Herramientas de escena</a>
                         <ul>
-                            <li><a href="#">Mover</a></li>
-                            <li><a href="#">Rotar</a></li>
-                            <li><a href="#">Scalar</a></li>
-                            <li><a href="#">Rect Transform</a></li>
+                            <li><a href="#10">Mover</a></li>
+                            <li><a href="#11">Rotar</a></li>
+                            <li><a href="#12">Scalar</a></li>
+                            <li><a href="#13">Rect Transform</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Mover perspectiva</a></li>
-                    <li><a href="#">Importar Assets</a></li>
-                    <li><a href="#">Unity store</a></li>
+                    <li><a href="#14">Mover perspectiva</a></li>
+                    <li><a href="#15">Importar Assets</a></li>
+                    <li><a href="#16">Unity store</a></li>
+                    <li><a href="#17">Unity store</a></li>
+                    <li><a href="#18">Unity store</a></li>
+                    <li><a href="#19">Unity store</a></li>
+                    <li><a href="#20">Unity store</a></li>
 
                 </ul>
             </nav>
         </header>
     </section>
     <main id="main-doc">
-        <section class="main-section">
+        <section class="main-section" id="1">
             <header>Entorno</header>
             <p>En esta sección veremos cómo está conformado el engine de Unitiy y cuales son las ventanas principales que la conforman y como utilizarlas.</p>
-        </section>
-        <section class="main-section">
-            <header>Barra herramienta</header>
-            <p>Proporciona acceso a las funciones de trabajo más esenciales. A la izquierda contiene las herramientas básicas para manipular la escena y GameObject, en medio están los controles de reproducción del videojuego y en la derecha se encuentra
-                Unity Collab, Unity Cloud, la cuenta con la que se cuenta, menú de visibilidad de capa y final mente menú de diseño del editor. </p>
             <div class="card">
+                <h4>Imagen del entorno</h4>
                 <figure>
-                    <img src="./assets/img/Sin título.jpg" alt="">
+                    <img src="./assets/img/entorno.jpg" alt="Entono de Unity">
                 </figure>
             </div>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="2">
+            <header>Barra herramienta</header>
+            <p>Proporciona acceso a las funciones de trabajo más esenciales y se divide en tres partes. En la primera contiene las herramientas básicas para poder manipular la escena y GameObject, la segunda se encuentra en medio están los controles de reproducción
+                del videojuego y la tercera se encuentra en la derecha donde esta Unity Collab, Unity Cloud, la cuenta con la que se cuenta, menú de visibilidad de capa y final mente menú de diseño del editor. </p>
+            <div class="card">
+                <h4>Barra de herremientas</h4>
+                <figure>
+                    <img src="./assets/img/barraTareas.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+        <section class="main-section" id="3">
             <header>Ventana jerarquía</header>
             <p>Es la presentación jerárquica de cada objeto en la escena.</p>
             <p>Se pueden agregar objetos desde este panel y es donde se puede administrar el orden jerárquico de los objetos.</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="4">
             <header>Vista de juego</header>
             <p>Simula como se verá el juego con su renderizado final y a través de las cámaras con las que se cuentan la escena y es donde podremos probar si nuestro juego funciona correctamente. </p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="5">
             <header>Ventana Inspector</header>
             <p>Permite ver y editar las propiedades o componentes de los objetos y estas propiedades cambian dependiendo del objeto.</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="6">
             <header>Ventana Proyecto</header>
             <p>Muestra su biblioteca de archivos que estarán disponibles para usar en el proyecto, al importar los archivos estos aparecieran aquí.</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="7">
             <header>Vista de escena</header>
             <p>Nos permite navegar y editar visualmente la escena. </p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="8">
             <header>Herramientas de escena</header>
             <p>Las herramientas de escena son las que se encuentras en la parte superiror derecha.</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="9">
             <header>Agregar un objeto</header>
             <p>Clic derecho en la ventana de jerarquía > objeto 2d o 3d , crearemos un objeto y veremos sus componentes en el inspector.</p>
             <p>Para resetear un componente se tendrá que hacer clic en los tres puntos del componente y seleccionar reset. </p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="10">
             <header>Mover un Objetos</header>
             <p>Al seleccionar un objeto aparecerán las flechas en las que podrá mover el objeto, si se requiere precisión se podan cambiar las coordenadas en el inspector, su atajo es la letra “w”. </p>
             <p>También para unir de una forma mas precisa dos objetos preciando la tecla “v“ el puntero se posicionara en las esquinas y se podrá poner la esquina del objeto con las otras esquinas del otro objetó. </p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="11">
             <header>Rotar un Objetos</header>
             <p>Si no se selecciona un eje para una rotación, e aplicara una rotación libre esto quiere decir que lo podrá rota libremente por todos los ejes y si selecciona el eje de rotación solo lo podrá mover sobre ese eje, el atajo de teclado es la letra
                 ”e” y también se podrá modifica desde le inspector. </p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="12">
             <header>Escalar un Objetos</header>
             <p>Si le damos clic en el cuadro de en medio se escalara de forma proporcionada y si seleccionamos una dirección se ira solo en ese eje, su atajo de teclado es la letra “r” y también se podrá modificar en el inspector.</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="13">
             <header>Rect Tranform</header>
             <p>Sirve para escalar de forma rectangular y si se presiona la tecla “ALT” se escalará de forma cuadrada, se suele ocupar mas para los elementos del cava y su atajo de teclado es la letra “e” y también se puede modificar en el inspector. </p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="14">
             <header>Mover la perspectiva</header>
             <p>Se podrá activar el modo de vista 2D para que se quede solo en la vista frontal y esta se podrá activar o desactivar.</p>
             <p>Haciendo clic derecho con el maus y presionando con las teclas “a” y “d” nos podremos mover hacia los lados y con las teclas “w” y “s” nos podremos acercar o alejar.</p>
             <p> También presionando la rueda del maus podremos mover la vista, girando la rueda del maus no podremos alejar y acercar y si presionamos la tecla “CTRL” y haciendo clic en el botón derecho del maus podremos rotar la vista.</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="15">
             <header>Unity Store</header>
             <p>Es la tienda oficial de Unity para poder tener assets de forma gratuita o pagando por ellos y estos los podrán utilizar en sus proyectos, los que son de forma gratuita tendrán que leer sus condiciones de uso, ya que algunos no los podrán utilizar
                 si es que quieren sacar su juego de forma oficial.</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="16">
             <header>Formas de importar Assets</header>
             <ol>
                 <li>
@@ -137,7 +148,7 @@
                 </li>
             </ol>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="17">
             <header>Inicio del Proyecto</header>
             <p>Para practicar y aprender nuevas cosas realizaremos un galaxi shooter en donde crearemos a nuestro jugador, crearemos enemigos, poderes especiales, un menú de inicio, un atienda para poder comprar skin y los poderes especiales.</p>
             <p>Para esto se creará un proyecto nuevo que sea del tipo 2D y le podrán poner el nombre que quieran yo le pondré GalaxiShooterCurso.</p>
@@ -179,7 +190,7 @@
                 </li>
             </ol>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="18">
             <header>Crear el Fondo</header>
             <p>Primero tendremos que posicionar la cámara con en la siguiente posición x=0 y=0 z=-10</p>
             <p>A continuación pondremos la siguientes imágenes en la escena , BluePinkNebular_left, BluePinkNebular_back, BluePinkNebular_top y BluePinkNebular_front practiquen con la herramienta de movimiento para intentar posicionarlas de una manera que
@@ -189,15 +200,46 @@
             <p>BluePinkNebular_back x=- 4.989999 y= 5.220001 z= 0</p>
             <p>BluePinkNebular_left x=- -15.49 y= 5.220001 z= 0</p>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="19">
             <header>Configuración del Player</header>
             <p>Para crear nuestro player primero tendremos que agregar un GameObject y asegurarnos que la posición sea la de x=0 y=0 z=0 luego arrastra la imagen que le guste para que sea el jugado ver que la imagen se encuentre en la posición de x=0 y=0
                 z=0 y luego en la ventana de jerarquía cambiar el nombre del GameObject a player y la de la imagen a spritePlayer y arrastrar la imagen para que quede dentro del GameObject.</p>
             <p>Después agregaremos los siguientes componentes dentro de player, para eso tendremos que seleccionar nuestro objeto player y en la ventana de inspector hasta abajo se encontrara u n botón que dice add Component y se agregaran los siguientes
-                componentes.</p>
+                componentes.
+            </p>
             <p>BoxCollider2D: Es el encargado de detectar la colisión con otro objeto.</p>
             <p>Rigibody2D: Permite a los objetos actuar bajo el control de la física.</p>
+            <p>Que es un GameObject: son los objetos vacíos y se utilizan para poder tener un mejor orden en el diseño de escenarios ya que se pueden poner adentro mas objetos.</p>
         </section>
+        <section class="main-section" id="20">
+            <header>Primer Sxript</header>
+            <ol>
+                <li>Clic derecho, ir a donde dice créate y seleccionar Folder, le pondremos el nombre de Script.</li>
+                <li>Dentro de la carpeta Script crear de nuevo un folder con el nombre de Player.</li>
+                <li>Clic derecho, ir a donde dice créate y seleccionar script y ponerle el nombre de PlayerController.</li>
+            </ol>
+            <p>Una vez creado el script se vera de la siguiente manera.</p>
+            <div class="card">
+                <h4>Primer Script</h4>
+                <figure>
+                    <img src="" alt="Vista del scrit nuevo">
+                </figure>
+            </div>
+            <h3>Clase Start</h3>
+            <p>Esta clase solo se ejecuta solo una vez cuando se inicia el juego y solo se realizará una vez.</p>
+            <code> void Start()
+                {
+                    
+                }
+            </code>
+            <h3>Clase Update</h3>
+            <p></p>
+            <code>
+                void Update()
+                {
+        
+                }
+            </code>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/utilidades.js"></script>

@@ -44,6 +44,7 @@ header {
     font-weight: 600;
     color: whitesmoke;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -80,12 +81,23 @@ img {
     height: auto;
 }
 
+
+/* ========================= Utilidades =========================
+ */
+
 .card {
-    width: 50vw;
+    width: 85%;
     background: linear-gradient(to right, #31165e, #af247f);
     margin: 1rem auto 2rem auto;
     border: 0.1rem solid white;
     border-radius: 1rem;
+}
+
+.card h4 {
+    text-align: center;
+    font-size: 2rem;
+    color: #66f5ff;
+    margin: 1rem;
 }
 
 @media (min-width: 500px) {}
@@ -103,6 +115,10 @@ img {
 @media (min-width: 992px) {
     .barra i {
         display: none;
+    }
+    header {
+        text-align: left;
+        margin-bottom: .6rem;
     }
 }
 
@@ -197,13 +213,15 @@ img {
 }
 
 .main-section {
-    padding-top: 0.7rem;
-    padding-left: 3rem;
-    padding-right: 2rem;
+    padding: 2rem 3rem 1.5rem 3rem;
 }
 
 .main-section:nth-child(odd) {
     background: linear-gradient(to right, #1d163f, #391044);
+}
+
+.main-section code {
+    color: whitesmoke;
 }
 
 @media (min-width: 500px) {
@@ -230,7 +248,6 @@ img {
         margin-left: 30vw;
     }
     .main-section {
-        padding-left: 3rem;
-        padding-right: 2rem;
+        padding: 2rem 3rem;
     }
 }
